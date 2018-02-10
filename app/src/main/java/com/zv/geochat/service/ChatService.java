@@ -19,6 +19,7 @@ public class ChatService extends Service {
     public static final int CMD_LEAVE_CHAT = 20;
     public static final int CMD_SEND_MESSAGE = 30;
     public static final int CMD_RECEIVE_MESSAGE = 40;
+    public static final int CMD_CONNECTION_ERROR = 50;
     public static final String KEY_MESSAGE_TEXT = "message_text";
     public static final String KEY_USER_NAME = "user_name";
 
